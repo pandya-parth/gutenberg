@@ -117,7 +117,7 @@ In the code snippet above, when loading the editor, we will extract the `content
 
 ## Components and the `RichText` Component
 
-Earlier examples used the `createElement` function to create DOM nodes, but it's also possible to encapsulate this behavior into ["components"](). This abstraction helps as a pattern to share common behaviors and to hide complexity into self-contained units. There are a number of components available to use in implementing your blocks. You can see one such component in the snippet above: the [`RichText` component]().
+Earlier examples used the `createElement` function to create DOM nodes, but it's also possible to encapsulate this behavior into `components`. This abstraction helps as a pattern to share common behaviors and to hide complexity into self-contained units. There are a number of components available to use in implementing your blocks. You can see one such component in the snippet above: the `RichText` component.
 
 The `RichText` component can be considered as a super-powered `textarea` element, enabling rich content editing including bold, italics, hyperlinks, etc. It is not too much unlike the single editor region of the legacy post editor, and is in fact powered by the same TinyMCE library.
 
